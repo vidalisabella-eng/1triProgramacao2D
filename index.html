@@ -4,21 +4,39 @@
         <title>Título do site</title>
         <meta charset="UTF-8">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.13.1/bootstrap-icons.svg">
+        <style>
+            header{
+                display: flex;
+                width: 100%;
+                justify-content: space-between;
+                align-items: center;
+            }
+            header img{
+                width: 10%;
+            }
+            #conteudo-header{
+                width: 100%;
+            }
+            header input{
+                width: 93%;
+                padding: 10px;
+                border-radius: 20px;
+            }
+            header i{
+                font-size: 24px;
+                cursor: pointer;
+                padding-left: 10px;
+            }
+        </style>
     </head>
     <body>
-        <h1>Cabeçalho em h1</h1>
-        <p>Parágrafo</p>
-        <!--
-        criar a tag <img>
-        <img> serve para colocar uma imagem
-        e possui os atributos:
-        src=" " que define o caminho da imagem
-        alt=" " que define o título de acessibilidade
-        a sixtaxe é:
-        -->
-        <img src="url" alt="texto alternativo">
-        <img style="width:300px ; height:300px" src=" " alt="texto alternativo">
-        <input type="search">
-        <i class="bi bi-list"></i>
+        <header>
+            <img src="logo-brasilio.png">
+            <div id="conteudo-header">
+                <h3>GALERIA 2ºD</h3>
+                <input type="search">
+            </div>
+            <i class="bi bi-list"></i>
+        </header>
     </body>
 </hmtl>
